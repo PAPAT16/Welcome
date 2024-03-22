@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="effect.css">
+    <title>WELCOME TO NIGERIA</title>
+</head>
+<body>
+    <div class="layer">
+        <img src="download-removebg-preview.png" alt="" class="plane">
+    </div>
+    <section class="sec1">
+    </section>
+    <div class="text">
+        <h2>WELCOME TO <br><span>NIGERIA</span></h2>
+    </div>
+    <section class="sec2"></section>
+    <script>
+        let layer = document.querySelector(".layer");
+        window.addEventListener( 'scroll', function ( ) {
+            let value = window.scrollY;
+            layer.style.left = value*6 + 'px'  ;
+        } );
+    </script>
+</body>
+</html>
