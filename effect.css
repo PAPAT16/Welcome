@@ -29,7 +29,7 @@ body{
   .sec2{
     background-image: url(david-rotimi-LxENUKJXh_k-unsplash.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
 }
 .text{
@@ -45,11 +45,11 @@ body{
    font-weight: 200;
 }
 .text h2 span{
-    font-size: 150px;
+    font-size: 200px;
     font-weight: 700;
     background: url(david-rotimi-LxENUKJXh_k-unsplash.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-clip: text;
     color: transparent;
 }
